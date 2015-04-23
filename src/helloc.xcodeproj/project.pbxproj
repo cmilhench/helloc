@@ -9,6 +9,8 @@
 /* Begin PBXFileReference section */
 		3BA67A2F1AE926460042F10D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = helloc/Makefile; sourceTree = "<group>"; };
 		3BA67A301AE926540042F10D /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = helloc/src/main.c; sourceTree = "<group>"; };
+		3BA67A331AE931580042F10D /* commander.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commander.c; sourceTree = "<group>"; };
+		3BA67A341AE931580042F10D /* commander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commander.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -33,8 +35,19 @@
 		3BA67A2E1AE925FC0042F10D /* deps */ = {
 			isa = PBXGroup;
 			children = (
+				3BA67A321AE931580042F10D /* commander */,
 			);
 			name = deps;
+			sourceTree = "<group>";
+		};
+		3BA67A321AE931580042F10D /* commander */ = {
+			isa = PBXGroup;
+			children = (
+				3BA67A331AE931580042F10D /* commander.c */,
+				3BA67A341AE931580042F10D /* commander.h */,
+			);
+			name = commander;
+			path = helloc/deps/commander;
 			sourceTree = "<group>";
 		};
 		3BFB697D1AE9227E002F44F5 = {

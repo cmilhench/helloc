@@ -1,5 +1,5 @@
 PREFIX ?= /usr/local
-SRC = src/main.c
+SRC = src/main.c deps/commander/commander.c
 OBJ = $(SRC:.c=.o)
 CFLAGS = -g -D_GNU_SOURCE -std=c99 -I deps/
 
